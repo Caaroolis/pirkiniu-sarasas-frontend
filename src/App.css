@@ -82,6 +82,13 @@ h1, label, p, span, button {
   padding: 8px;
   border-radius: 4px;
   border: 1px solid #ccc;
+  background: #fff;
+  border: 1.5px solid #444;
+  color: #111;
+}
+.add-form input::placeholder {
+  color: #bbb;
+  opacity: 1;
 }
 .add-form button {
   padding: 8px 16px;
