@@ -149,6 +149,28 @@ h1, label, p, span, button {
   margin-right: 0;
 }
 
+.store-checkboxes {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 6px;
+  flex-wrap: wrap;
+}
+.store-checkbox-label {
+  display: flex;
+  align-items: center;
+  font-size: 1em;
+  gap: 4px;
+  background: #f2f2f2;
+  border-radius: 4px;
+  padding: 2px 8px;
+}
+
+.row-fields {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 6px;
+}
+
 @media (max-width: 600px) {
   .container {
     max-width: 100vw;
@@ -214,5 +236,23 @@ h1, label, p, span, button {
     font-size: 1.2em;
     text-align: center;
     margin-bottom: 12px;
+  }
+  .store-checkboxes {
+    gap: 6px;
+    margin-bottom: 8px;
+  }
+  .store-checkbox-label {
+    font-size: 1em;
+    padding: 2px 6px;
+  }
+  .row-fields {
+    flex-direction: row;
+    gap: 6px;
+    margin-bottom: 8px;
+  }
+  .row-fields input[type='number'],
+  .row-fields input[type='text'] {
+    font-size: 1em;
+    padding: 10px 8px;
   }
 }
